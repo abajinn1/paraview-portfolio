@@ -34,5 +34,3 @@ These outputs are relevant to AI-adjacent research workflows because refined sci
 #### Raw dataset view
 
 This screenshot shows the initial loaded state of the scientific dataset in ParaView before any refinement filters were applied.
-
-![Raw dataset view](assets/01-raw-dataset-view.png)
