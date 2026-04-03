@@ -7,7 +7,7 @@ Ryan DeJong | 6e2713977c88@handshakecommunity.ai
 
 ### Project summary
 
-This project demonstrates a ParaView workflow for transforming raw scientific simulation output into clearer, reviewer-ready visualization assets. The emphasis is on refinement, interpretability, and technical presentation for AI-adjacent research workflows, especially where visual assets may support review, comparison, quality evaluation, and human-in-the-loop analysis.
+This project uses ParaView to refine raw scientific simulation output into clearer, reviewer-ready visualization assets for AI-related research workflows.
 
 ### Status
 
