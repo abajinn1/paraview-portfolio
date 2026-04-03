@@ -13,7 +13,7 @@ This project shows how a raw CFD dataset can be refined in ParaView into clearer
 
 ### Problem
 
-The default loaded view of the dataset did not clearly reveal internal flow structure or variable patterns. In its initial state, the asset was technically loaded, but not strong enough for fast reviewer interpretation.
+The default loaded view of the dataset did not clearly reveal internal flow structure or variable patterns. In its initial state, the asset was technically loaded but not yet strong enough for fast reviewer interpretation.
 
 ### Objective
 
@@ -65,7 +65,7 @@ This view applies the dataset’s `V` field for color mapping, turning neutral g
 
 ### 4. Slice-based internal inspection
 
-This slice view cuts through the dataset to expose internal field variation that is not visible from the exterior alone. It is a stronger analytical view because it reveals structure inside the model.
+This slice view cuts through the dataset to expose internal field variation that is not visible from the exterior alone. It is a stronger analytical view because it reveals structure inside the model rather than only on the outer shell.
 
 <a href="assets/04-slice-plus-x-view.png" target="_blank" rel="noopener noreferrer"><img src="assets/04-slice-plus-x-view.png" alt="Slice-based internal inspection"></a>
 
@@ -86,3 +86,19 @@ This contour view uses the `Pres` field to extract a second scalar-based result.
 This stream tracer result uses a point-cloud seed setup to generate a fuller set of flow paths through the dataset. It is one of the strongest outputs in the project because it makes directional flow behavior more explicit and visually interpretable.
 
 <a href="assets/07-stream-tracer-point-cloud.png" target="_blank" rel="noopener noreferrer"><img src="assets/07-stream-tracer-point-cloud.png" alt="Stream tracer refinement"></a>
+
+## Final selected assets
+
+The strongest final outputs from this case study were selected based on how clearly they improve technical interpretability over the default loaded view.
+
+- **Velocity-mapped view** for first-pass variable visibility
+- **Slice-based internal inspection** for exposing internal structure
+- **Stream tracer refinement** for showing directional flow behavior
+
+Together, these assets provide a more reviewer-ready scientific visualization set than the raw dataset view alone.
+
+### Featured final asset: velocity-mapped view
+
+This cleaned export is the final presentation version of the velocity-mapped view. It was selected as one of the strongest deliverables because it clearly communicates scalar variation in the dataset while remaining visually compact and reviewer-friendly.
+
+<a href="assets/08-final-velocity-view.png" target="_blank" rel="noopener noreferrer"><img src="assets/08-final-velocity-view.png" alt="Featured final asset velocity mapped view"></a>
