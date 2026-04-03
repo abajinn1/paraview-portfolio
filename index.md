@@ -1,4 +1,4 @@
-# ParaView Training Portfolio
+# ParaView Portfolio
 Ryan DeJong | 6e2713977c88@handshakecommunity.ai
 
 ## Project 1: Flow Field Refinement in ParaView
@@ -7,7 +7,7 @@ Ryan DeJong | 6e2713977c88@handshakecommunity.ai
 
 ### Project summary
 
-This project demonstrates a basic ParaView workflow for turning raw scientific simulation output into clearer, reviewer-ready visualization assets. The focus is on refinement, interpretability, and technical presentation rather than claiming model training or automated AI generation.
+This project demonstrates a ParaView workflow for transforming raw scientific simulation output into clearer, reviewer-ready visualization assets. The emphasis is on refinement, interpretability, and technical presentation for AI-adjacent research workflows, especially where visual assets may support review, comparison, quality evaluation, and human-in-the-loop analysis.
 
 ### Status
 
@@ -37,8 +37,8 @@ This screenshot shows the initial loaded state of the scientific dataset in Para
 
 <a href="assets/01-raw-dataset-view.png" target="_blank" rel="noopener noreferrer"><img src="assets/01-raw-dataset-view.png" alt="Raw dataset view"></a>
 
-#### Set view direction to +Z 
-Using the given tool, I changed the direction. The initial loaded state's view did not have the velocity variance necessary for the demonstration.
+#### Orientation refinement (+Z view)
+The default loaded view did not clearly expose the internal velocity structure, so the camera was reoriented to a +Z view to make the field variation more visible and interpretable.
 
 <a href="assets/02-raw-dataset-plus-Z-view.png" target="_blank" rel="noopener noreferrer"><img src="assets/02-raw-dataset-plus-Z-view.png" alt="+Z view"></a> 
 
@@ -46,3 +46,13 @@ Using the given tool, I changed the direction. The initial loaded state's view d
 This view applies the dataset’s `V` field for color mapping, which introduces a first-pass scientific variable overlay instead of a neutral solid-color surface. This is a basic refinement step because it starts turning the raw geometry into a more interpretable technical asset.
 
 <a href="assets/02-colored-by-velocity.png" target="_blank" rel="noopener noreferrer"><img src="assets/02-colored-by-velocity.png" alt="Velocity-colored view"></a>
+
+#### Slice refinement (+X view)
+This slice view cuts through the volume to expose internal field variation that is not visible from the default loaded view alone. Using a planar slice is a stronger refinement step than simple exterior coloring because it reveals structure inside the dataset and makes the technical pattern easier to inspect.
+
+<a href="assets/04-slice-plus-x-view.png" target="_blank" rel="noopener noreferrer"><img src="assets/04-slice-plus-x-view.png" alt="Slice refinement plus X view"></a>
+
+#### Slice orientation context (isometric view)
+This isometric view shows the slice plane in 3D context, which helps clarify where the cut is positioned inside the dataset. It supports the main slice result by making the orientation and geometry easier to understand at a glance.
+
+<a href="assets/05-slice-isometric-view.png" target="_blank" rel="noopener noreferrer"><img src="assets/05-slice-isometric-view.png" alt="Slice orientation context isometric view"></a>
