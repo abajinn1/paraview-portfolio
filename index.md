@@ -1,4 +1,5 @@
-# ParaView Portfolio
+# ParaView Training Portfolio
+Ryan DeJong | 6e2713977c88@handshakecommunity.ai
 
 ## Project 1: Flow Field Refinement in ParaView
 
