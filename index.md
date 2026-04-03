@@ -56,3 +56,8 @@ This slice view cuts through the volume to expose internal field variation that 
 This isometric view shows the slice plane in 3D context, which helps clarify where the cut is positioned inside the dataset. It supports the main slice result by making the orientation and geometry easier to understand at a glance.
 
 <a href="assets/05-slice-isometric-view.png" target="_blank" rel="noopener noreferrer"><img src="assets/05-slice-isometric-view.png" alt="Slice orientation context isometric view"></a>
+
+#### Pressure contour view
+This contour view uses the `Pres` field to extract a more meaningful scalar-based result than the constant velocity-magnitude contour. It adds a second refinement mode by showing how a different scientific variable can reveal structure across the dataset in a reviewer-friendly isometric view.
+
+<a href="assets/06-pressure-contour-isometric.png" target="_blank" rel="noopener noreferrer"><img src="assets/06-pressure-contour-isometric.png" alt="Pressure contour isometric view"></a>
