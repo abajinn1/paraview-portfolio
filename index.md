@@ -1,41 +1,88 @@
 # ParaView Portfolio
 Ryan DeJong | 6e2713977c88@handshakecommunity.ai
 
-## Project 1: Refining a CFD Dataset into Reviewer-Ready Scientific Visualization Assets
+---
 
+### Jump to section
+- [Project 1: Refining Scientific Visualization Assets in ParaView](#project-1-refining-scientific-visualization-assets-in-paraview)
+- [Featured final assets](#featured-final-assets)
+- [Problem](#problem)
+- [Objective](#objective)
+- [Workflow](#workflow)
+- [Outcome](#outcome)
+- [AI relevance](#ai-relevance)
+- [Supporting workflow visuals](#supporting-workflow-views)
+- [Initial dataset state](#1-initial-dataset-state)
+- [Viewpoint refinement for feature visibility](#2-viewpoint-refinement-for-feature-visibility)
+- [Velocity-mapped view](#3-velocity-mapped-view)
+- [Slice-based internal inspection](#4-slice-based-internal-inspection)
+- [Slice orientation context](#5-slice-orientation-context)
+- [Pressure contour extraction](#6-pressure-contour-extraction)
+- [Stream tracer refinement](#7-stream-tracer-refinement)
+
+---
+
+## Project 1: Refining Scientific Visualization Assets in ParaView
 **Tool:** ParaView  
 **Dataset:** Official ParaView testing data, `disk_out_ref.ex2`
 
-### Project summary
-This project shows how a raw CFD dataset can be refined in ParaView into clearer, reviewer-ready scientific visualization assets for AI-related research workflows.
+### Overview
+This case study shows how a raw CFD dataset was transformed in ParaView into clearer, reviewer-friendly assets for AI-adjacent research workflows.
 
-### Problem
-The default loaded view of the dataset did not clearly reveal internal flow structure or variable patterns. In its initial state, the asset was technically loaded but not yet strong enough for fast reviewer interpretation.
+### Reading guide
+The [Featured final assets](#featured-final-assets) section shows the completed deliverables first. The [Supporting workflow views](#supporting-workflow-views) section below documents how those final assets were developed in ParaView.
 
-### Objective
+## Featured final assets
+
+These final deliverables were selected because they most clearly improve technical interpretability over the default loaded view.
+
+### Velocity-mapped visuals
+
+This final collage combines the strongest top-facing velocity view with supporting side-angle context views. It was selected as a featured deliverable because it clearly communicates scalar variation while also showing the object’s 3D form in a more reviewer-friendly format.
+
+<a href="assets/10-final-velocity-collage.png" target="_blank" rel="noopener noreferrer"><img src="assets/10-final-velocity-collage.png" alt="Featured final asset velocity mapped view"></a>
+
+### Slice-based internal inspection
+
+This final collage combines the primary slice inspection view with supporting context views that clarify the slice geometry and its relationship to the surrounding pressure-colored structure. It was selected as a featured deliverable because it makes internal variation easier to inspect than the exterior-only views.
+
+<a href="assets/12-final-slice-collage.png" target="_blank" rel="noopener noreferrer"><img src="assets/12-final-slice-collage.png" alt="Featured final asset slice based internal inspection"></a>
+
+### Stream tracer refinement
+
+This final collage combines isometric, top, and side views of the point-cloud stream tracer result. It was selected as a featured deliverable because it shows the flow structure from multiple angles while keeping the isometric view as the primary reviewer-facing image.
+
+<a href="assets/09-final-stream-tracer-collage.png" target="_blank" rel="noopener noreferrer"><img src="assets/09-final-stream-tracer-collage.png" alt="Featured final asset stream tracer refinement"></a>
+
+---
+
+## Problem
+The default loaded view of the dataset did not clearly reveal internal flow structure or variable patterns. In its initial state, the dataset was loaded correctly but was not yet strong enough for fast technical review.
+
+## Objective
 Create a compact set of scientific visualization outputs that improve interpretability by exposing:
 - stronger variable visibility
 - internal structure
 - scalar-field comparison
 - flow-path behavior
 
-### Workflow
-- inspected the default loaded dataset view
-- reoriented the camera to expose more meaningful field variation
-- applied velocity-based coloring to turn the geometry into a scientific data view
-- used a slice to inspect internal structure
-- used pressure contouring to compare a second scalar field
-- used a point-cloud stream tracer to make flow paths more explicit
+## Workflow
+- Inspected the default loaded dataset view
+- Reoriented the camera to improve feature visibility
+- Applied velocity-based coloring to encode scalar variation
+- Used slicing to inspect internal structure
+- Used pressure contouring to compare a second scalar field
+- Used a point-cloud stream tracer to make flow paths more explicit
 
-### Outcome
+## Outcome
 The result is a small set of refined technical assets that better support review, comparison, and interpretation than the default loaded view alone.
 
-### AI relevance
-These outputs are relevant to AI-related research workflows because refined scientific visualizations can support asset review, quality evaluation, interpretation, and human-in-the-loop analysis.
+## AI relevance
+These outputs are relevant to AI-adjacent research workflows because refined scientific visualizations can support asset review, comparison, quality evaluation, and human-in-the-loop interpretation.
 
 ---
 
-## Results
+## Supporting workflow visuals
 
 ### 1. Initial dataset state
 This screenshot shows the dataset in its default loaded state before refinement. It establishes the starting point of the case study, but it does not yet clearly communicate the internal structure or scientific variation needed for strong technical review.
@@ -71,31 +118,3 @@ This contour view uses the `Pres` field to extract a second scalar-based result.
 This stream tracer result uses a point-cloud seed setup to generate a fuller set of flow paths through the dataset. It is one of the strongest outputs in the project because it makes directional flow behavior more explicit and visually interpretable.
 
 <a href="assets/07-stream-tracer-point-cloud.png" target="_blank" rel="noopener noreferrer"><img src="assets/07-stream-tracer-point-cloud.png" alt="Stream tracer refinement"></a>
-
-## Final selected assets
-
-The strongest final outputs from this case study were selected based on how clearly they improve technical interpretability over the default loaded view.
-
-- **Velocity-mapped view** for first-pass variable visibility
-- **Slice-based internal inspection** for exposing internal structure
-- **Stream tracer refinement** for showing directional flow behavior
-
-Together, these assets provide a more reviewer-ready scientific visualization set than the raw dataset view alone.
-
-### Featured final asset: velocity-mapped view
-
-This final collage combines the strongest top-facing velocity view with supporting side-angle context views. It was selected as a featured deliverable because it clearly communicates scalar variation while also showing the object’s 3D form in a more reviewer-friendly format.
-
-<a href="assets/10-final-velocity-collage.png" target="_blank" rel="noopener noreferrer"><img src="assets/10-final-velocity-collage.png" alt="Featured final asset velocity mapped view"></a>
-
-### Featured final asset: stream tracer refinement
-
-This final collage combines isometric, top, and side views of the point-cloud stream tracer result. It was selected as a featured deliverable because it shows the flow structure from multiple angles while keeping the isometric view as the primary reviewer-facing image.
-
-<a href="assets/09-final-stream-tracer-collage.png" target="_blank" rel="noopener noreferrer"><img src="assets/09-final-stream-tracer-collage.png" alt="Featured final asset stream tracer refinement"></a>
-
-### Featured final asset: slice-based internal inspection
-
-This final collage combines the primary slice inspection view with supporting context views that clarify the slice geometry and its relationship to the surrounding pressure-colored structure. It was selected as a featured deliverable because it makes internal variation easier to inspect than the exterior-only views.
-
-<a href="assets/12-final-slice-collage.png" target="_blank" rel="noopener noreferrer"><img src="assets/12-final-slice-collage.png" alt="Featured final asset slice based internal inspection"></a>
