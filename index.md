@@ -61,3 +61,8 @@ This isometric view shows the slice plane in 3D context, which helps clarify whe
 This contour view uses the `Pres` field to extract a more meaningful scalar-based result than the constant velocity-magnitude contour. It adds a second refinement mode by showing how a different scientific variable can reveal structure across the dataset in a reviewer-friendly isometric view.
 
 <a href="assets/06-pressure-contour-isometric.png" target="_blank" rel="noopener noreferrer"><img src="assets/06-pressure-contour-isometric.png" alt="Pressure contour isometric view"></a>
+
+#### Stream tracer view
+This stream tracer result uses a point-cloud seed setup to generate a fuller set of flow paths through the dataset than the earlier line-seed attempt. It is one of the strongest refinement outputs in the case study because it makes the flow structure more explicit and visually interpretable.
+
+<a href="assets/07-stream-tracer-point-cloud.png" target="_blank" rel="noopener noreferrer"><img src="assets/07-stream-tracer-point-cloud.png" alt="Stream tracer point cloud view"></a>
