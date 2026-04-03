@@ -3,7 +3,7 @@ Ryan DeJong | 6e2713977c88@handshakecommunity.ai
 
 ---
 
-### Jump to section
+## Jump to section
 - [Project 1: Refining Scientific Visualization Assets in ParaView](#project-1-refining-scientific-visualization-assets-in-paraview)
 - [Featured final assets](#featured-final-assets)
 - [Problem](#problem)
@@ -11,14 +11,7 @@ Ryan DeJong | 6e2713977c88@handshakecommunity.ai
 - [Workflow](#workflow)
 - [Outcome](#outcome)
 - [AI relevance](#ai-relevance)
-- [Supporting workflow visuals](#supporting-workflow-views)
-- [Initial dataset state](#1-initial-dataset-state)
-- [Viewpoint refinement for feature visibility](#2-viewpoint-refinement-for-feature-visibility)
-- [Velocity-mapped view](#3-velocity-mapped-view)
-- [Slice-based internal inspection](#4-slice-based-internal-inspection)
-- [Slice orientation context](#5-slice-orientation-context)
-- [Pressure contour extraction](#6-pressure-contour-extraction)
-- [Stream tracer refinement](#7-stream-tracer-refinement)
+- [Supporting workflow visuals](#supporting-workflow-visuals)
 
 ---
 
@@ -27,12 +20,12 @@ Ryan DeJong | 6e2713977c88@handshakecommunity.ai
 **Dataset:** Official ParaView testing data, `disk_out_ref.ex2`
 
 ### Overview
-This case study shows how a raw CFD dataset was transformed in ParaView into clearer, reviewer-friendly assets for AI-adjacent research workflows.
+This case study shows how a raw CFD dataset was transformed in ParaView into clearer scientific assets for AI-adjacent research workflows.
 
 ### Reading guide
-The [Featured final assets](#featured-final-assets) section shows the completed deliverables first. The [Supporting workflow views](#supporting-workflow-views) section below documents how those final assets were developed in ParaView.
+The [Featured final assets](#featured-final-assets) section shows the completed deliverables first. The [Supporting workflow visuals](#supporting-workflow-visuals) section below documents how those final assets were developed in ParaView.
 
-## Featured final assets
+### Featured final assets
 
 These final deliverables were selected because they most clearly improve technical interpretability over the default loaded view.
 
@@ -56,17 +49,17 @@ This final collage combines isometric, top, and side views of the point-cloud st
 
 ---
 
-## Problem
+### Problem
 The default loaded view of the dataset did not clearly reveal internal flow structure or variable patterns. In its initial state, the dataset was loaded correctly but was not yet strong enough for fast technical review.
 
-## Objective
+### Objective
 Create a compact set of scientific visualization outputs that improve interpretability by exposing:
 - stronger variable visibility
 - internal structure
 - scalar-field comparison
 - flow-path behavior
 
-## Workflow
+### Workflow
 - Inspected the default loaded dataset view
 - Reoriented the camera to improve feature visibility
 - Applied velocity-based coloring to encode scalar variation
@@ -74,15 +67,15 @@ Create a compact set of scientific visualization outputs that improve interpreta
 - Used pressure contouring to compare a second scalar field
 - Used a point-cloud stream tracer to make flow paths more explicit
 
-## Outcome
+### Outcome
 The result is a small set of refined technical assets that better support review, comparison, and interpretation than the default loaded view alone.
 
-## AI relevance
+### AI relevance
 These outputs are relevant to AI-adjacent research workflows because refined scientific visualizations can support asset review, comparison, quality evaluation, and human-in-the-loop interpretation.
 
 ---
 
-## Supporting workflow visuals
+### Supporting workflow visuals
 
 ### 1. Initial dataset state
 This screenshot shows the dataset in its default loaded state before refinement. It establishes the starting point of the case study, but it does not yet clearly communicate the internal structure or scientific variation needed for strong technical review.
