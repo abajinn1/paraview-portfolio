@@ -6,23 +6,39 @@ This portfolio presents scientific visualization case studies built in ParaView 
 ---
 
 ## Jump to project
-- [Project 1: Reservoir Model Conversion and Property Refinement in ParaView](#project-1-reservoir-model-conversion-and-property-refinement-in-paraview)
+- [Project 1: Reservoir Model Refinement in ParaView](#project-1-reservoir-model-refinement-in-paraview)
 - [Project 2: Refining Scientific Visualization Assets in ParaView](#project-2-refining-scientific-visualization-assets-in-paraview)
 
 ---
 
-## Project 1: Reservoir Model Conversion and Property Refinement in ParaView
+## Project 1: Reservoir Model Refinement in ParaView
 **Tools:** PowerShell, Python, `em2ex`, ParaView  
 **Dataset:** Public Norne reservoir model components from the OPM data repository  
 **Output format:** Exodus II (`.e`)
 
 This case study shows how a public reservoir model was assembled from multi-file engineering inputs, converted to Exodus II through a repeatable command-line workflow, and refined in ParaView into clearer reviewer-facing assets.
 
-### Featured final asset
+### Featured final assets
 
-This is the lead asset for Project 1 because it most clearly shows layered structure, fault offsets, and property variation in a format that is fast to scan during technical review.
+These are the primary reviewer-facing ParaView outputs for Project 1. Together they show the model exterior, property comparison, and internal structure inspection.
 
-<a href="assets/project1-norne/p1-05-norne-final-poro-view.png" target="_blank" rel="noopener noreferrer"><img src="assets/project1-norne/p1-05-norne-final-poro-view.png" alt="Norne reservoir model porosity view"></a>
+<p>
+  <a href="assets/project1-norne/p1-05-norne-final-poro-view.png" target="_blank" rel="noopener noreferrer">
+    <img src="assets/project1-norne/p1-05-norne-final-poro-view.png" alt="Norne reservoir model porosity view" width="49%">
+  </a>
+  <a href="assets/project1-norne/p1-06-norne-final-permx-view.png" target="_blank" rel="noopener noreferrer">
+    <img src="assets/project1-norne/p1-06-norne-final-permx-view.png" alt="Norne reservoir model permeability view" width="49%">
+  </a>
+</p>
+
+<p>
+  <a href="assets/project1-norne/p1-07-norne-clip-or-slice-view.png" target="_blank" rel="noopener noreferrer">
+    <img src="assets/project1-norne/p1-07-norne-clip-or-slice-view.png" alt="Norne reservoir model internal slice view" width="49%">
+  </a>
+  <a href="assets/project1-norne/p1-09-norne-slice-plus-plot-over-line-analysis.png" target="_blank" rel="noopener noreferrer">
+    <img src="assets/project1-norne/p1-09-norne-slice-plus-plot-over-line-analysis.png" alt="Norne reservoir model slice plus plot over line analysis" width="49%">
+  </a>
+</p>
 
 ### What this project demonstrates
 
