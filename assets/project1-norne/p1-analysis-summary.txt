@@ -1,0 +1,13 @@
+Active cell count: 44927
+
+poro summary
+min: 0.0942141712
+max: 0.347318083
+mean: 0.2421369495945912
+median: 0.244704992
+
+permx summary
+min: 0.322113454
+max: 3996.54761
+mean: 388.97132396547966
+median: 209.913483

@@ -1,0 +1,17 @@
+NORNE PORTFOLIO MODEL | CONSOLE-ASSISTED ANALYSIS
+=======================================================
+Active cell count: 44,927
+
+Porosity (poro)
+  Min:    0.0942
+  Max:    0.3473
+  Mean:   0.2421
+  Median: 0.2447
+  Interpretation: porosity is comparatively balanced and visually readable across the active model.
+
+Permeability X (permx)
+  Min:    0.3221
+  Max:    3996.5476
+  Mean:   388.9713
+  Median: 209.9135
+  Interpretation: permeability spans a much wider and more skewed range, making it a stronger technical comparison view.
