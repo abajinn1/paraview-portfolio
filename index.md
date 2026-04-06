@@ -86,6 +86,8 @@ This screenshot shows the converted reservoir model immediately after loading in
 
 This was selected as the primary reviewer-facing view because it shows property variation clearly while preserving the reservoir’s layered and faulted structure.
 
+<a href="assets/project1-norne/p1-05-norne-final-poro-view.png" target="_blank" rel="noopener noreferrer"><img src="assets/project1-norne/p1-05-norne-final-poro-view.png" alt="Norne porosity view"></a>
+
 #### Permeability view (`permx`)
 
 This view shows a second reservoir property on the same structure. It reads as more technical and works well as a comparison view beside `poro`.
