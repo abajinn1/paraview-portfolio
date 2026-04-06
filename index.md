@@ -7,7 +7,7 @@ This portfolio presents scientific visualization case studies built in ParaView 
 
 ## Jump to project
 - [Project 1: Reservoir Model Refinement in ParaView](#project-1-reservoir-model-refinement-in-paraview)
-- [Project 2: Refining Scientific Visualization Assets in ParaView](#project-2-refining-scientific-visualization-assets-in-paraview)
+- [Project 2: CFD Visualization Refinement in ParaView](#project-2-cfd-visualization-refinement-in-paraview)
 
 ---
 
@@ -154,7 +154,7 @@ The result is a reviewer-facing case study built from a real public reservoir mo
 
 ---
 
-## Project 2: Refining Scientific Visualization Assets in ParaView
+## Project 2: CFD Visualization Refinement in ParaView
 **Tool:** ParaView  
 **Dataset:** Official ParaView testing data, `disk_out_ref.ex2`
 
