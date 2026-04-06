@@ -1,5 +1,7 @@
-# Scientific Visualization Portfolio (ParaView)
-Ryan DeJong | 6e2713977c88@handshakecommunity.ai
+# Scientific Visualization Portfolio in ParaView
+
+**Author:** Ryan DeJong  
+**HAI:** 6e2713977c88@handshakecommunity.ai
 
 This portfolio presents scientific visualization case studies built in ParaView using real technical data, command-line preprocessing, and visual refinement. The goal is to turn raw scientific or engineering outputs into clearer reviewer-facing assets for comparison, interpretation, and AI-adjacent evaluation workflows.
 
